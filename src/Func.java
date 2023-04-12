@@ -1,11 +1,11 @@
 public class Func {
     //вернуть левого потомка `A[i]`
-    private int LEFT(int i) {
+    private int left(int i) {
         return (2 * i + 1);
     }
 
     //вернуть правого потомка `A[i]`
-    private int RIGHT(int i) {
+    private int right(int i) {
         return (2 * i + 2);
     }
 
@@ -19,8 +19,8 @@ public class Func {
     //рекурсивный алгоритм heapify-down. Узел с индексом `i` и 2 его прямых потомка нарушают свойство кучи
     private void heapify(int[] sortArr, int i, int size) {
         // получить левый и правый потомки узла с индексом `i`
-        int left = LEFT(i);
-        int right = RIGHT(i);
+        int left = left(i);
+        int right = right(i);
         int largest = i;
 
         //сравниваем `A[i]` с его левым и правым дочерними элементами и находим наибольшее значение
@@ -43,7 +43,7 @@ public class Func {
         int top = sortArr[0];
 
         //заменяем корень кучи последним элементом массива
-        sortArr[0] = sortArr[size-1];
+        sortArr[0] = sortArr[size - 1];
         //вызовите heapify-down на корневом узле
         heapify(sortArr, 0, size - 1);
         return top;

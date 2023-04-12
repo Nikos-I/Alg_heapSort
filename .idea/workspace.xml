@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87892aea-a52c-4bc0-bb41-4f14e622dd38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heapSort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Func.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heapSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="87892aea-a52c-4bc0-bb41-4f14e622dd38" name="Changes" comment="Git init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +56,16 @@
       <option name="presentableId" value="Default" />
       <updated>1680941172848</updated>
       <workItem from="1680941174797" duration="1501000" />
-      <workItem from="1681290690891" duration="630000" />
+      <workItem from="1681290690891" duration="990000" />
     </task>
+    <task id="LOCAL-00001" summary="Git init">
+      <created>1681291957771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681291957771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Git init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git init" />
   </component>
 </project>
